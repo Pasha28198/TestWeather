@@ -1,0 +1,28 @@
+.weatherCard {
+    width: 333px;
+    height: 539px;
+    border-radius: 10px;
+    background: #7FABDA;
+    margin-top: 40px;
+    position: relative;
+    padding: 53px 29px;
+
+    &>p {
+        display: flex;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 36px;
+        justify-content: space-between;
+        color: #FFFFFF;
+    }
+
+    &>img {
+        width: 220px;
+        position: absolute;
+        bottom: 25px;
+        margin-left: -110px; 
+        left: 50%;
+    }
+}

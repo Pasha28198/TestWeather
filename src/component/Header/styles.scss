@@ -1,0 +1,25 @@
+.header {
+    padding: 0 120px;
+    height: 80px;
+    background: #2B5CAE;
+    display: flex;
+
+    &>img {
+        width: 58px;
+        height: 38px;
+        margin-top: 16px;
+    }
+
+    &>span {
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-left: 29px;
+        margin-top: 26px;
+        color: #F6F6F6;
+    }
+}
